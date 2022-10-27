@@ -1,0 +1,147 @@
+@charset "Utf-8";
+
+
+:root{
+    --cor0: #bcdcf0;
+    --cor1: #78c6f7;
+    --cor2: #033453;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    background-color: var(#033453);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-image: linear-gradient(to bottom,  rgb(105, 195, 247), rgb(1, 1, 54));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header h1 {
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+header p {
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav {
+    background-color: #020242;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.199);
+}
+nav > a {
+    color: rgb(109, 245, 238);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover {
+    background-color: #151591;
+    color: #78c6f7;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(1, 1, 54);
+    background-color: #04a6d8;
+    padding: 2px 6px;
+}
+main a:hover {
+    text-decoration: underline;
+    color:#033453
+}
+main h1 {
+    color:#020242
+    
+}
+main h2 {
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 60, 255), rgb(255, 255, 255));
+    font-size: 1.3em;
+    text-indent: 8px;
+}
+main image {
+    max-width: 350px;
+    display: block;
+    margin:auto;   
+}
+div.video {
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+div.video > iframe {
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+aside {
+    background-color: #033453;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+aside > ul {
+    list-style-position: inside;
+    color: white;
+    
+}
+aside h2 {
+    background-color: #020242;
+    font-weight: bolder;
+    color:white
+
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(192, 233, 12);
+}
